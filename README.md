@@ -23,3 +23,6 @@ helm install helloworld-chart-0.1.0.tgz --name helloworld
 <h1>Hello, world!</h1>
 
 ```
+
+## Remove Helm packages
+`helm delete --purge helloworld`
