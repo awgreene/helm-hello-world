@@ -13,10 +13,10 @@ helm install helloworld-chart-0.1.0.tgz --name helloworld
 `kubectl get pods`
 
 ### Execute an sh command within the pod
-`kubectl exec -it <POD_NAME> sh`
+`kubectl exec -it {{ POD_NAME }} sh`
 
 ### Curl the endpoint found earlier
-curl <ENDPOINT>
+curl {{ ENDPOINT }}
 
 ### Result
 ```
