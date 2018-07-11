@@ -5,7 +5,7 @@ helm package helloworld-chart --debug
 helm install helloworld-chart-0.1.0.tgz --name helloworld
 ```
 
-## curl the page from within any node in the cluser
+## Get index.html contents from within any node in the cluser
 ### Get the endpoint
 `kubectl get endpoints`
 
